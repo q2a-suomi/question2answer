@@ -1,0 +1,7 @@
+git:
+filters:
+- filter_type: dynamic
+  file_format: PHP
+  source_language: en
+  source_files_expression: qa-include/lang/<file>.php
+  translation_files_expression: 'qa-lang/<lang>/<file>.php'
