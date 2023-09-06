@@ -5,3 +5,6 @@ git:
     source_language: en
     source_files_expression: qa-include/lang/<file>.php
     translation_files_expression: 'qa-lang/<lang>/<file>.php'
+  ignore_files: 
+  - qa-include/lang/qa-lang-admin.php
+  - qa-include/lang/qa-lang-options.php
